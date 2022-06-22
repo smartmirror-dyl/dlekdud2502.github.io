@@ -46,7 +46,7 @@
       <h4 class="resume-item-details" itemprop="description">{{ job.position }}</h4>
       <h4 class="resume-item-durations" itemprop="description">{{ job.duration }}</h4>
       <p class="resume-item-copy">{{ job.summary }}</p>
-        {% for detail in summary %}
+        {% for detail in job.summary %}
         <p class="resume-item-copy">{{ detail.title }}</p>
         <p class="resume-item-copy">{{ detail.description }}</p>
         {% endfor %}
