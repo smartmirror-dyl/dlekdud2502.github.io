@@ -51,6 +51,18 @@
       }
     }
   }
+  .down_btn button{
+    color: #ffffff;
+    cursor: pointer;
+    line-height: 20px;
+    border-radius:30px;
+    border:none;
+    letter-spacing:-1px;
+  }
+  .down_btn button:hover{
+    box-shadow:1px 1px 4px rgba(0,0,0,0.4);
+
+  }
 }
 
 
