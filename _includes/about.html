@@ -45,7 +45,12 @@
       <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
       <h4 class="resume-item-details" itemprop="description">{{ job.position }}</h4>
       <h4 class="resume-item-durations" itemprop="description">{{ job.duration }}</h4>
-      <p class="resume-item-copy">{{ job.summary }}</p>
+      <p class="resume-item-copy">
+      {% for details in job.summary %}
+        {{ details.title }}
+        {{ details.details }}
+      </p>
+      
     </div>
     {% endfor %}
 
