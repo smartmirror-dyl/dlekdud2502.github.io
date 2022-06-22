@@ -4,21 +4,18 @@
 // resume content styles
 
 .content-section {
-  margin: 0 0 3rem;
+  margin: 0 0 0;
 
   .resume-item { margin-bottom: 2rem; }
 
   .resume-item-title {
     @include sans_bold;
-    margin: 0 0 24px;
+    margin: 0 0 0 24px;
     font-size: 20px;
     letter-spacing: -.05rem;
     line-height: 1;
   }
-  .resume-item-subtitle {
-    font-size: 18px;
-    margine: 0 0 0 12px;
-  }
+  
   .resume-item-details {
     font-size: 18px;
     margin: 0 0 0 12px;
