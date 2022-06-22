@@ -1,10 +1,10 @@
 - skill: Language Skills
   description: 
-    - details: <li>Native Speaker for Korean</li>
-    - details: "<li>Advanced English (B2) : TOEFL iBT 91 (MyBestScore) / 88 (In single test)</li>"
-    - details: <li>Have learned Chinese, Spanish, Japanese</li>
+    - details: Native Speaker for Korean
+    - details: "Advanced English (B2) : TOEFL iBT 91 (MyBestScore) / 88 (In single test)"
+    - details: Have learned Chinese, Spanish, Japanese
     
 - skill: Computational Skills
   description:
-    - details: "<li>Computer Languages : Python, R, C/C++, Scratch</li>"
-    - details: "<li>Productivity Software : Microsoft Office (MS Excel, MS word, MS powerpoint)</li>"
+    - details: "Computer Languages : Python, R, C/C++, Scratch"
+    - details: "Productivity Software : Microsoft Office (MS Excel, MS word, MS powerpoint)"
