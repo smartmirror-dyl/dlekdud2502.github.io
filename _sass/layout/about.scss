@@ -10,12 +10,14 @@
 
   .resume-item-title {
     @include sans_bold;
+    margin: 24px 0 12px;
     font-size: 20px;
     letter-spacing: -.05rem;
     line-height: 1;
   }
   
   .resume-item-details {
+    margin: 0 0 12px;
     font-size: 18px;
     line-height: 1;
 
@@ -24,11 +26,13 @@
     }
   }
   .resume-item-durations {
+    margin: 0 0 12px;
     font-size : 16px;
     line-height: 1;
   }
   
   .resume-item-copy{
+    margin: 0 0 12px;
     font-size: 16px;
     line-height: 1;
   }
@@ -71,7 +75,8 @@
     .resume-item { margin-bottom: 1rem; }
     .resume-item-title {
       font-size: 16px;
-      line-height: .7em;
+      line-height: 1;
+      marin: 24px 0 12px;    
     }
 
     .resume-item-details {
@@ -83,6 +88,17 @@
       &.award-title {
         font-size: 11px;
       }
+    }
+    .resume-item-durations {
+      margin: 0 0 12px;
+      font-size : 16px;
+      line-height: 1;
+    }
+
+    .resume-item-copy{
+      margin: 0 0 12px;
+      font-size: 16px;
+      line-height: 1;
     }
   }
 }
