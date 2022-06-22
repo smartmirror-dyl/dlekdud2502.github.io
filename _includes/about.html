@@ -88,13 +88,13 @@
       <h2>Skills</h2>
       <hr style="border: solid 1.8px ced4da;">
     </header>
+    
     {% for skill in site.data.resume.skills %}
     <div class="resume-item">
       <h3 class="resume-item-details">{{ skill.skill }}</h3>
       {% for detail in skill.description %}
       <li>{{ detail.details }}</li>
       {% endfor %}
-      <br> </br>
     </div>
     {% endfor %}
 
