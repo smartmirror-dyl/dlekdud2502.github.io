@@ -28,14 +28,7 @@
       <h3 class="resume-item-title" itemprop="name">{{ education.uni }}</h3>
       <h4 class="resume-item-details" itemprop="description">{{ education.degree }}</h4>
       <h4 class="resume-item-durations" itemprop="description">{{ education.year }}</h4>
-      <h5 class="resume-item-details award-title" itemprop="description">{{ education.award }}</h5>
-      <p class="resume-item-copy" itemprop="description">
-        <ul class="resume-item-list">
-          {% for award in education.awards %}
-          <li>{{ award.award }}</li>
-          {% endfor %}
-        </ul>
-      <p class="resume-item-copy">{{ education.details }}</p>
+      <p class="resume-item-copy">{{ education.detail }}</p>
     </div>
     {% endfor %}
   </section>
@@ -89,17 +82,17 @@
 #      <hr style="border: solid 1px dee2e6;">
 #    </header>
 
-    {% for project in site.data.resume.projects %}
-    <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
-      <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
-      <h4 class="resume-item-details" itemprop="description">{{ project.role }}  &bull; {{ project.duration }}</h4>
-      <p class="resume-item-copy">{{ project.description }}</p>
-    </div>
-    {% endfor %}
+#    {% for project in site.data.resume.projects %}
+#    <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
+#      <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
+#      <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
+#      <h4 class="resume-item-details" itemprop="description">{{ project.role }}  &bull; {{ project.duration }}</h4>
+#      <p class="resume-item-copy">{{ project.description }}</p>
+#    </div>
+#    {% endfor %}
 
-  </section>
-  <!-- end Projects -->
+#  </section>
+#  <!-- end Projects -->
     
   <!-- begin Skills -->
   <section class="content-section">
