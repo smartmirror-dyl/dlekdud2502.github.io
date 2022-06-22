@@ -4,7 +4,7 @@
   summary: 
     - title: Participated Project
       details: 
-        - description: Sep.2021 ~ Dec.2021<br>Usage of CT images as an Biomarker to Detect EGFR and KRAS Mutation in NSCLC (Non-Small Cell Lung Cancer) Patient Using Machine Learning
-        - description: Dec.2021 ~ Until Now<br>Survival Analysis and Feature Selection Using XAI
+        - description: <li>Sep.2021 ~ Dec.2021<br>Usage of CT images as an Biomarker to Detect EGFR and KRAS Mutation in NSCLC (Non-Small Cell Lung Cancer) Patient Using Machine Learning</li>
+        - description: <li>Dec.2021 ~ Until Now<br>Survival Analysis and Feature Selection Using XAI</li>
     - title: Lab Meeting
       details: Introduce articles related to reasearch interests
