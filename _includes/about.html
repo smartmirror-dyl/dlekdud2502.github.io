@@ -23,9 +23,9 @@
 
     {% for education in site.data.resume.education %}
     <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
-      <h3 class="resume-item-title" itemprop="name">{{ education.uni }}</h3>
-      <h4 class="resume-item-details" itemprop="description">{{ education.degree }}</h4>
-      <h4 class="resume-item-durations" itemprop="description">{{ education.year }}</h4>
+      <b class="resume-item-title" itemprop="name">{{ education.uni }}</b>
+      <b class="resume-item-details" itemprop="description">{{ education.degree }}</b>
+      <b class="resume-item-durations" itemprop="description">{{ education.year }}</b>
       <p class="resume-item-copy">{{ education.detail }}</p>
     </div>
     {% endfor %}
@@ -42,9 +42,9 @@
 
     {% for job in site.data.resume.experience %}
     <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-      <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
-      <h4 class="resume-item-details" itemprop="description">{{ job.position }}</h4>
-      <h4 class="resume-item-durations" itemprop="description">{{ job.duration }}</h4>
+      <b class="resume-item-title" itemprop="name">{{ job.company }}</b>
+      <b class="resume-item-details" itemprop="description">{{ job.position }}</b>
+      <b class="resume-item-durations" itemprop="description">{{ job.duration }}</b>
       <p class="resume-item-copy">{{ job.summary }}</p>
     </div>
     {% endfor %}
@@ -61,9 +61,9 @@
     
     {% for act in site.data.resume.ECA %}
     <div class="resume-item" itemscpte itemprop="experience">
-      <h3 class="resume-item-title" itemprop="name">{{ act.activity }}</h3>
-      <h4 class="resume-item-details" itemprop="description">{{ act.organization }}</h4>
-      <h4 class="resume-item-durations" itemprop="description">{{ act.duration }}</h4>
+      <b class="resume-item-title" itemprop="name">{{ act.activity }}</b>
+      <b class="resume-item-details" itemprop="description">{{ act.organization }}</b>
+      <b class="resume-item-durations" itemprop="description">{{ act.duration }}</b>
       <p class="resume-item-copy">{{ act.details }}</p>
     </div>
     {% endfor %}
@@ -80,8 +80,8 @@
 #    {% for project in site.data.resume.projects %}
 #    <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
 #      <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
-#      <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
-#      <h4 class="resume-item-details" itemprop="description">{{ project.role }}  &bull; {{ project.duration }}</h4>
+#      <b class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</b>
+#      <b class="resume-item-details" itemprop="description">{{ project.role }}  &bull; {{ project.duration }}</b>
 #      <p class="resume-item-copy">{{ project.description }}</p>
 #    </div>
 #    {% endfor %}
@@ -98,7 +98,7 @@
     </header>
     {% for skill in site.data.resume.skills %}
     <div class="resume-item">
-      <h3 class="resume-item-details">{{ skill.skill }}</h3>
+      <b class="resume-item-details">{{ skill.skill }}</b>
       <p class="resume-item-copy">{{ skill.description }}</p>
     </div>
     {% endfor %}
@@ -116,9 +116,9 @@
     
     {% for fund in site.data.resume.funding %}
     <div class="resume-item">
-      <h3 class="resume-item-title">{{ fund.name }}</h3>
-      <h4 class="resume-item-details">{{ fund.organization }}</h4>
-      <h4 class="resume-item-durations">{{ fund.durations }}</h4>
+      <b class="resume-item-title">{{ fund.name }}</b>
+      <b class="resume-item-details">{{ fund.organization }}</b>
+      <b class="resume-item-durations">{{ fund.durations }}</b>
       <p class="resume-item-copy">{{ fund.detail }}</p>
     </div>
     {% endfor %}
