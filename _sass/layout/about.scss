@@ -17,11 +17,11 @@
   }
   .resume-item-subtitle {
     font-size: 18px;
-    margine: 0 0 12px;
+    margine: 0 0 0 12px;
   }
   .resume-item-details {
     font-size: 18px;
-    margin: 0 0 12px;
+    margin: 0 0 0 12px;
     line-height: 1;
 
     &.award-title {
@@ -30,13 +30,13 @@
   }
   .resume-item-durations {
     font-size : 16px;
-    margin: 0 0 12px;
+    margin: 0 0 0 12px;
     line-height: 1;
   }
   
   .resume-item-copy{
     font-size: 16px;
-    margin: 0 0 12px;
+    margin: 0 0 0 12px;
     line-height: 1;
   }
   .resume-item-title,
@@ -83,7 +83,7 @@
 
     .resume-item-details {
       font-size: 12px;
-      margin: 0 0 .75rem;
+      margin: 0 0 12px;
       line-height: .7em;
       font-style:italic;
 
