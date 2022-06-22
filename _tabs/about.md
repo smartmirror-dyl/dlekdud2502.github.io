@@ -4,4 +4,4 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-{{% include site.layout.about.html %}}
+{{% include site.layouts.about.html %}}
