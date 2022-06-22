@@ -3,7 +3,7 @@
   <section class="content-section">
     <header class="section-header">
       <h2>Summary</h2>
-      <hr style="border: solid 1.8px ced4da;">
+      <hr style="border: solid 2px ced4da;">
     </header>
     
     {% for info in site.data.resume.information %}
@@ -18,7 +18,7 @@
   <section class="content-section"> 
     <header class="section-header">
       <h2>Education</h2>
-      <hr style="border: solid 1.8px ced4da;">
+      <hr style="border: solid 2px ced4da;">
     </header>
 
     {% for education in site.data.resume.education %}
@@ -46,7 +46,7 @@
       <h4 class="resume-item-details" itemprop="description">{{ job.position }}</h4>
       <h4 class="resume-item-durations" itemprop="description">{{ job.duration }}</h4>
       <p class="resume-item-copy">{{ job.summary }}</p>
-    </div><!-- end of resume-item -->
+    </div>
     {% endfor %}
 
   </section>
