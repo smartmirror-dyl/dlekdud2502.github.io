@@ -38,43 +38,7 @@ body {
 
 /* --- Typography --- */
 
-h1 {
-  @extend %heading;
 
-  font-size: 1.9rem;
-}
-
-h2 {
-  @extend %heading;
-  @extend %section;
-  @extend %anchor;
-
-  font-size: 1.5rem;
-}
-
-h3 {
-  @extend %heading;
-  @extend %section;
-  @extend %anchor;
-
-  font-size: 1.2rem;
-}
-
-h4 {
-  @extend %heading;
-  @extend %section;
-  @extend %anchor;
-
-  font-size: 1.15rem;
-}
-
-h5 {
-  @extend %heading;
-  @extend %section;
-  @extend %anchor;
-
-  font-size: 1.1rem;
-}
 
 ol,
 ul {
