@@ -49,7 +49,11 @@
       {% for details in job.summary %}
       <p class="resume-item-copy">
         {{ details.title }}
-        {{ details.details }}
+        {% for description in details.details %}
+        <p class="resume-item-list">
+          {{ description.description }}
+        </p>
+        {% endfor %}
       </p>
       {% endfor %}
       </p>
