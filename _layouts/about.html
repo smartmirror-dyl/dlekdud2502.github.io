@@ -5,9 +5,20 @@ layout: page
 
 {% include lang.html %}
 <div>
+  <section class="content-section">
+    <header class="section-header">
+      <h2>Summary</h2>
+    </header>
+    
+    {% for info in site.data.resume.information %}
+    <div class="resume-item">
+      <h3 class="resume-item-title">{{ info.title }}</h3>
+      <p class="resume-item-copy">{{ info.detail }}</p>
+    </div>
+  </section>
   
   <!-- begin Education -->
-  </section class="content-section"> 
+  <section class="content-section"> 
     <header class="section-header">
       <h2>Education</h2>
     </header>
