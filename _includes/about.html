@@ -93,7 +93,7 @@
       <h3 class="resume-item-details">{{ skill.skill }}</h3>
       <p class="resume-item-list">
         {% for detail in skill.description %}
-        {{ detail.details }}
+        <li>{{ detail.details }}</li>
         {% endfor %}
       </p>
     </div>
