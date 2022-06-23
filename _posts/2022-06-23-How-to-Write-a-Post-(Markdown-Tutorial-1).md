@@ -1,7 +1,7 @@
 ---
-title : How to Write a Post : Markdown Manual 1
-date : 2022-06-23 18:27:00 + 0900
-categories: [Github, Manual]
+title : How to Write a Post (Markdown Tutorial 1)
+date : 2022-06-23 18:38:00 + 0900
+categories: [Github, Tutorial]
 tags: [github, jekyll, chirpy, markdown]
 ---
 
