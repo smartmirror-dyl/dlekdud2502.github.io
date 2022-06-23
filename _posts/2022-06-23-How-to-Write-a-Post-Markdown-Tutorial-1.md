@@ -97,11 +97,11 @@ Result
 ```
 1. Hello
 2. World!
-3. Number List
+3. Ordered List
 ```
 1. Hello
 2. World!
-3. Number List
+3. Ordered List
 
 
 ## 6) Unordered List
@@ -109,17 +109,9 @@ You can use ```+,*,-```. The results are all same no matter which symbol you use
 ```
 + Hello
 	+ World! // Use "Tab key" if you want to make dependent bulltes. 
-		+  Bullets
+		+  Unordered List
 ```
 Result
 + Hello
 	+ World! // Use "Tab key" if you want to make dependent bulltes. 
-		+  Bullets
-
-
-## 7) Dividing Line
-```
-------------
-```
-Result
-------------
+		+  Unordered List
