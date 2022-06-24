@@ -19,6 +19,8 @@ tags: [] // only in small letters
 &nbsp;&nbsp;&nbsp;&nbsp;
 ## 1) To Enter Text
 You can write text without any help of functions or symbols. 
+
+
 &nbsp;&nbsp;&nbsp;&nbsp;
 ## 2) Title
 You can write title with "#". 
