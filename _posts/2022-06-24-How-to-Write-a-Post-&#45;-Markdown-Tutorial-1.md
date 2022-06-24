@@ -17,8 +17,12 @@ tags: [] // only in small letters
 ---
 ```
 
+
+
 ## 1) To Enter Text
 You can write text without any help of functions or symbols. 
+
+
 
 
 ## 2) Title
@@ -36,6 +40,8 @@ Results
 ## The second biggest text.
 ### The number of '#' (N) means Nth biggest text.
 #### There must be a space between '#' and text.
+
+
 
 
 ## 3) Code Block
@@ -81,6 +87,8 @@ print("code block")
 ```
 
 
+
+
 ## 4) BlockQuote
 ```
 > Hello
@@ -91,6 +99,8 @@ Result
 > Hello
 >> World!
 >>> Blockquote
+
+
 
 
 ## 5) Ordered List
@@ -104,6 +114,8 @@ Result
 3. Ordered List
 
 
+
+
 ## 6) Unordered List
 You can use ```+,*,-```. The results are all same no matter which symbol you use.
 ```
@@ -113,5 +125,5 @@ You can use ```+,*,-```. The results are all same no matter which symbol you use
 ```
 Result
 + Hello
-	+ World! // Use "Tab key" if you want to make dependent bulltes. 
+	+ World! // Use "Tab key" if you want to make dependent list. 
 		+  Unordered List
