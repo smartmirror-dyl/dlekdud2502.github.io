@@ -58,9 +58,9 @@ Normal Text
 
 ### Second - Use &#96;&#96;&#96;
 ```
-\`\`\`
+```
 code block
-\`\`\`
+```
 ```
 Result
 ```
@@ -69,10 +69,10 @@ code block
 
 If you want to use specific computational language, you should write the name of language life below.
 ```
-\`\`\`python
+```python
 print("Hello World!")
 print("code block")
-\`\`\`
+```
 ```
 Result
 ```python
