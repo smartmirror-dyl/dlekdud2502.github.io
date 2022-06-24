@@ -32,11 +32,6 @@ You can write title with "#".
 #### There must be a space between '#' and text.
 ```
 
-Results 
-# The biggest text.
-## The second biggest text.
-### The number of '#' (N) means Nth biggest text.
-#### There must be a space between '#' and text.
 &nbsp;&nbsp;&nbsp;&nbsp;
 ## 3) Code Block
 There are two ways to use code block in your text.
