@@ -11,9 +11,9 @@ You should start your file with the contents
 ```
 ---
 title : How to Write a Post - Markdown Manual 1
-date : 2022-06-23 17:30:00 + 0900
-categories: [Github, Manual]
-tags: [github, jekyll, chirpy, markdown]
+date : YYYY-MM-DD HH:MM:SS + 0900
+categories: []
+tags: [] // only in small letters
 ---
 ```
 
@@ -58,9 +58,9 @@ Normal Text
 
 ### Second - Use &#96;&#96;&#96;
 ```
-```
+\`\`\`
 code block
-```
+\`\`\`
 ```
 Result
 ```
@@ -69,10 +69,10 @@ code block
 
 If you want to use specific computational language, you should write the name of language life below.
 ```
-```python
+\`\`\`python
 print("Hello World!")
 print("code block")
-```
+\`\`\`
 ```
 Result
 ```python
