@@ -16,15 +16,10 @@ categories: []
 tags: [] // only in small letters
 ---
 ```
-
-
-
+&nbsp;&nbsp;&nbsp;&nbsp;
 ## 1) To Enter Text
 You can write text without any help of functions or symbols. 
-
-
-
-
+&nbsp;&nbsp;&nbsp;&nbsp;
 ## 2) Title
 You can write title with "#". 
 
@@ -40,10 +35,7 @@ Results
 ## The second biggest text.
 ### The number of '#' (N) means Nth biggest text.
 #### There must be a space between '#' and text.
-
-
-
-
+&nbsp;&nbsp;&nbsp;&nbsp;
 ## 3) Code Block
 There are two ways to use code block in your text.
 
@@ -56,12 +48,13 @@ Normal Text
 Normal Text
 ```
 Results
+&nbsp;
 Normal Text
 
 	code block
 
 Normal Text
-
+&nbsp;&nbsp;&nbsp;&nbsp;
 ### Second - Use &#96;&#96;&#96;
 ```
 \``` // Backslash is needed to remove in real code.
@@ -72,7 +65,7 @@ Result
 ```
 code block
 ```
-
+&nbsp;
 If you want to use specific computational language, you should write the name of language life below.
 ```
 \```python
@@ -85,10 +78,7 @@ Result
 print("Hello World!")
 print("code block")
 ```
-
-
-
-
+&nbsp;&nbsp;&nbsp;&nbsp;
 ## 4) BlockQuote
 ```
 > Hello
@@ -99,10 +89,7 @@ Result
 > Hello
 >> World!
 >>> Blockquote
-
-
-
-
+&nbsp;&nbsp;&nbsp;&nbsp;
 ## 5) Ordered List
 ```
 1. Hello
@@ -112,10 +99,7 @@ Result
 1. Hello
 2. World!
 3. Ordered List
-
-
-
-
+&nbsp;&nbsp;&nbsp;&nbsp;
 ## 6) Unordered List
 You can use ```+,*,-```. The results are all same no matter which symbol you use.
 ```
