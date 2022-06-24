@@ -47,8 +47,9 @@ Normal Text
 // enter : You should type "enter key" after what you want to make as code block.
 Normal Text
 ```
-Results
+Results &nbsp;
 &nbsp;
+
 Normal Text
 
 	code block
