@@ -78,6 +78,7 @@ Result
 print("Hello World!")
 print("code block")
 ```
+
 &nbsp;&nbsp;&nbsp;&nbsp;
 ## 4) BlockQuote
 ```
@@ -89,6 +90,8 @@ Result
 > Hello
 >> World!
 >>> Blockquote
+
+
 &nbsp;&nbsp;&nbsp;&nbsp;
 ## 5) Ordered List
 ```
@@ -99,6 +102,8 @@ Result
 1. Hello
 2. World!
 3. Ordered List
+
+
 &nbsp;&nbsp;&nbsp;&nbsp;
 ## 6) Unordered List
 You can use ```+,*,-```. The results are all same no matter which symbol you use.
