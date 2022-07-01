@@ -74,7 +74,7 @@ sum(limma_res$adj.P.Val<=0.05 & abs(limma_res$logFC) >= 0.01) # result : 163
 ```
 ![Figure 04. limma_res](../assets/posts/220701_result1.jpg)
 
-+ logFC: The proportion of expression of a gene in the test group compared to the control group. The base is 2. 
++ logFC : The proportion of expression of a gene in the test group compared to the control group. The base is 2. 
 	ex) logFC = 1 means that expression of gene X is twice higher in Survive group than in Dead group.
 	if logFC is a negative value, it means that gene X is underexpressed in the test group. 
 - adj.P.Val : FDR (False Discovery Rate)
