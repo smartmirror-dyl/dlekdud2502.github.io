@@ -38,7 +38,7 @@ GeneIDs <- Data[1:nrow(Data)-1,1]
 rownames(FPKM) <- GeneIDs 
 # View(FPKM) # Figure 01
 ```
-![alt Figure 01. FPKM](/assets/posts/220701_FPKM.jpg)
+![alt Figure 01. FPKM](/assets/posts/220701_FPKM.jpg "Figure 01. FPKM")
 
 &nbsp;
 ### Step 3. Making Design Matrix
@@ -51,7 +51,7 @@ rownames(lim_design) <- colnames(Condition)
 dim(lim_design)
 # View (lim_design) # Figure 02
 ```
-![alt Figure 02. lim_design](/assets/posts/220701_limdesign.JPG)
+![alt Figure 02. lim_design](/assets/posts/220701_limdesign.JPG "Figure 02. lim_design") 
 
 &nbsp;
 ### Step 4. Making Contrast Matrix
@@ -62,7 +62,7 @@ limma_cont <- makeContrasts(Survive - Dead,levels=lim_design) # Control Group = 
 limma_fit.cont <- contrasts.fit(limma_fit,limma_cont)
 limma_fit.cont <- eBayes(limma_fit.cont)
 ```
-![alt Figure 03. Contrast Matrix](/assets/posts/220701_contrast_matrix.jpg) 
+![alt Figure 03. Contrast Matrix](/assets/posts/220701_contrast_matrix.jpg "Figure 03. Contrast Matrix") 
 
 &nbsp;
 ### Step 5. Results
@@ -72,7 +72,7 @@ limma_res <- topTable(limma_fit.cont, adjust.method = 'BH', number = 20000)
 sum(limma_res$adj.P.Val<=0.05 & abs(limma_res$logFC) >= 0.01) # result : 163
 # write.table(limma_res,"DEG_fpkm.csv",sep=',',quote=F)
 ```
-![alt Figure 04. limma_res](/assets/posts/220701_result1.jpg)
+![alt Figure 04. limma_res](/assets/posts/220701_result1.jpg "Figure 04. limma_res")
 
 + logFC : The proportion of expression of a gene in the test group compared to the control group. The base is 2. 
 	ex) logFC = 1 means that expression of gene X is twice higher in Survive group than in Dead group.
@@ -89,7 +89,7 @@ limma_res$diffexpressed[limma_res$logFC >= 0.01 & limma_res$adj.P.Val <= 0.05] <
 limma_res$diffexpressed[limma_res$logFC <= -0.01 & limma_res$adj.P.Val <= 0.05] <- "DOWN"
 # View(limma_res) # Figure 05
 ```
-![alt Figure 05. limma_res](/assets/posts/220701_result2.jpg)
+![alt Figure 05. limma_res](/assets/posts/220701_result2.jpg "Figure 05. limma_res")
 
 &nbsp;
 ### Step 7. Plot
@@ -105,4 +105,4 @@ names(mycolors) <- c("DOWN", "UP", "NO")
 p3 <- p2 + scale_colour_manual(values = mycolors)
 p3 # Figure 06
 ```
-![alt Figure 06. p3](/assets/posts/220701_p3.jpg)
+![alt Figure 06. p3](/assets/posts/220701_p3.jpg "Figure 06. p3")
