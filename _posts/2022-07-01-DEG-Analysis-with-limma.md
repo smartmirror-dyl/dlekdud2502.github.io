@@ -53,7 +53,7 @@ dim(lim_design)
 # View (lim_design) # Figure 02
 ```
 ![alt Figure 02. lim_design](/assets/posts/220701_limdesign.JPG) 
-*Figure 02. lim design*
+*Figure 02. lim_design*
 
 &nbsp;
 ### Step 4. Making Contrast Matrix
@@ -76,7 +76,7 @@ sum(limma_res$adj.P.Val<=0.05 & abs(limma_res$logFC) >= 0.01) # result : 163
 # write.table(limma_res,"DEG_fpkm.csv",sep=',',quote=F)
 ```
 ![alt Figure 04. limma_res](/assets/posts/220701_result1.jpg)
-*Figure 04. limma res*
+*Figure 04. limma_res*
 
 + logFC : The proportion of expression of a gene in the test group compared to the control group. The base is 2. 
 	ex) logFC = 1 means that expression of gene X is twice higher in Survive group than in Dead group.
@@ -84,7 +84,7 @@ sum(limma_res$adj.P.Val<=0.05 & abs(limma_res$logFC) >= 0.01) # result : 163
 + adj.P.Val : FDR (False Discovery Rate)
 
 &nbsp;
-### Step 6.  Find Up&Down Regulated Genes
+### Step 6. Label Regulated Genes
 ```R
 limma_res$diffexpressed <- "NO"
 # if log2Foldchange > 0.01 and pvalue < 0.05, set as "UP" 
@@ -94,7 +94,7 @@ limma_res$diffexpressed[limma_res$logFC <= -0.01 & limma_res$adj.P.Val <= 0.05] 
 # View(limma_res) # Figure 05
 ```
 ![alt Figure 05. limma_res](/assets/posts/220701_result2.jpg)
-*Figure 05. limma res*
+*Figure 05. limma_res*
 
 &nbsp;
 ### Step 7. Plot
