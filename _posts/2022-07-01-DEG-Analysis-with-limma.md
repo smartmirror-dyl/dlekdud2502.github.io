@@ -38,42 +38,41 @@ GeneIDs <- Data[1:nrow(Data)-1,1]
 rownames(FPKM) <- GeneIDs 
 # View(FPKM) # Figure 01
 ```
-![Figure 01. FPKM](../assets/posts/220701_PFKM.jpg)
+![Figure 01. FPKM](../assets/posts/220701_FPKM.jpg)
 
 &nbsp;
 ### Step 3. Making Design Matrix
 ```R
 Condition <- Data[nrow(Data),2:ncol(Data)] # 579 x 1
-# View(Condition) # Figure 02
+# View(Condition) 
 lim_design <-model.matrix(~ 0 + factor(t(Condition))) # 2 x 579
 colnames(lim_design) <- c("Dead","Survive")
 rownames(lim_design) <- colnames(Condition)
 dim(lim_design)
-# View (lim_design) # Figure 03
+# View (lim_design) # Figure 02
 ```
-![Figure 02. Condition](../assets/posts/220701_Condition.jpg) 
-![Figure 03. lim_design](../assets/posts/220701_limdesign.JPG)
+![Figure 02. lim_design](../assets/posts/220701_limdesign.JPG)
 
 &nbsp;
 ### Step 3. Making Contrast Matrix
 ```R
 limma_fit <- lmFit(FPKM,lim_design)
 limma_cont <- makeContrasts(Survive - Dead,levels=lim_design) # Control Group = Dead
-# View(limma_cont) # Figure 04
+# View(limma_cont) # Figure 03
 limma_fit.cont <- contrasts.fit(limma_fit,limma_cont)
 limma_fit.cont <- eBayes(limma_fit.cont)
 ```
-![Figure 04. Contrast Matrix](../assets/posts/220701_contrast_matrix.jpg) 
+![Figure 03. Contrast Matrix](../assets/posts/220701_contrast_matrix.jpg) 
 
 &nbsp;
 ### Step 4. Results
 ```R
 limma_res <- topTable(limma_fit.cont, adjust.method = 'BH', number = 20000) 
-# View(limma_res) # Figure 05
+# View(limma_res) # Figure 04
 sum(limma_res$adj.P.Val<=0.05 & abs(limma_res$logFC) >= 0.01) # result : 163
 # write.table(limma_res,"DEG_fpkm.csv",sep=',',quote=F)
 ```
-![Figure 05. limma_res](../assets/posts/220701_result1.jpg)
+![Figure 04. limma_res](../assets/posts/220701_result1.jpg)
 
 + logFC: The proportion of expression of a gene in the test group compared to the control group. The base is 2. 
 	ex) logFC = 1 means that expression of gene X is twice higher in Survive group than in Dead group.
@@ -88,9 +87,9 @@ limma_res$diffexpressed <- "NO"
 limma_res$diffexpressed[limma_res$logFC >= 0.01 & limma_res$adj.P.Val <= 0.05] <- "UP"
 # if log2Foldchange < -0.01 and pvalue < 0.05, set as "DOWN"
 limma_res$diffexpressed[limma_res$logFC <= -0.01 & limma_res$adj.P.Val <= 0.05] <- "DOWN"
-# View(limma_res) # Figure 06
+# View(limma_res) # Figure 05
 ```
-![Figure 06. limma_res](../assets/posts/220701_result2.jpg)
+![Figure 05. limma_res](../assets/posts/220701_result2.jpg)
 
 &nbsp;
 ### Step 6. Plot
@@ -104,6 +103,6 @@ p3 <- p2 + scale_color_manual(values=c("blue", "black", "red"))
 mycolors <- c("blue", "red", "black")
 names(mycolors) <- c("DOWN", "UP", "NO")
 p3 <- p2 + scale_colour_manual(values = mycolors)
-p3 # Figure 07
+p3 # Figure 06
 ```
-![Figure 07. p3](../assets/posts/220701_p3.jpg)
+![Figure 06. p3](../assets/posts/220701_p3.jpg)
