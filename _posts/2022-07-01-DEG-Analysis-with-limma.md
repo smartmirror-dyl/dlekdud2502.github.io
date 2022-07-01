@@ -29,7 +29,7 @@ library(limma)
 ```
 
 &nbsp;
-### Step 2. Import Data and Preprocessing 
+### Step 2. Import Data
 ```R
 Data <- read.csv("DEA_fpkm.csv") # 598 x 20,001
 FPKM <- Data[2:nrow(Data)-1,2:ncol(Data)] # 579 x 20,000
@@ -54,7 +54,7 @@ dim(lim_design)
 ![alt Figure 02. lim_design](/assets/posts/220701_limdesign.JPG)
 
 &nbsp;
-### Step 3. Making Contrast Matrix
+### Step 4. Making Contrast Matrix
 ```R
 limma_fit <- lmFit(FPKM,lim_design)
 limma_cont <- makeContrasts(Survive - Dead,levels=lim_design) # Control Group = Dead
@@ -65,7 +65,7 @@ limma_fit.cont <- eBayes(limma_fit.cont)
 ![alt Figure 03. Contrast Matrix](/assets/posts/220701_contrast_matrix.jpg) 
 
 &nbsp;
-### Step 4. Results
+### Step 5. Results
 ```R
 limma_res <- topTable(limma_fit.cont, adjust.method = 'BH', number = 20000) 
 # View(limma_res) # Figure 04
@@ -80,7 +80,7 @@ sum(limma_res$adj.P.Val<=0.05 & abs(limma_res$logFC) >= 0.01) # result : 163
 - adj.P.Val : FDR (False Discovery Rate)
 
 &nbsp;
-### Step 5.  Find Up&Down Regulated Genes
+### Step 6.  Find Up&Down Regulated Genes
 ```R
 limma_res$diffexpressed <- "NO"
 # if log2Foldchange > 0.01 and pvalue < 0.05, set as "UP" 
@@ -92,7 +92,7 @@ limma_res$diffexpressed[limma_res$logFC <= -0.01 & limma_res$adj.P.Val <= 0.05] 
 ![alt Figure 05. limma_res](/assets/posts/220701_result2.jpg)
 
 &nbsp;
-### Step 6. Plot
+### Step 7. Plot
 ```R
 p <- ggplot(data=limma_res, aes(x=logFC, y=-log10(adj.P.Val), col=diffexpressed)) + geom_point() + theme_minimal()
 # Add lines as before...
