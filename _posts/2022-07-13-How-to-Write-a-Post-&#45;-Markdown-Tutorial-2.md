@@ -35,11 +35,11 @@ If you want to insert caption, use `*caption*`.
 ```
 Results
 
-| First Header  | Second Header | Third Header         |
-| :------------ | :-----------: | -------------------: |
-| First row     | Data          | Very long data entry |
-| Second row    | **Cell**      | *Cell*               |
-| Third row     | Cell that spans across two columns  ||
+| First Header  | Second Header | Third Header         |&nbsp;
+| :------------ | :-----------: | -------------------: |&nbsp;
+| First row     | Data          | Very long data entry |&nbsp;
+| Second row    | **Cell**      | *Cell*               |&nbsp;
+| Third row     | Cell that spans across two columns  ||&nbsp;
 [Table caption, works as a reference][table1]
 
 &nbsp;
@@ -47,29 +47,29 @@ Results
 Insert `:` symbol one or both side of headers. 
 
 ```
-| Header One | Header Two | Header Three | Header Four |
-| ---------- | :--------- | :----------: | ----------: |
-| Default    | Left       | Center       | Right       |
+| Header One | Header Two | Header Three | Header Four |&nbsp;
+| ---------- | :--------- | :----------: | ----------: |&nbsp;
+| Default    | Left       | Center       | Right       |&nbsp;
 ```
 
 Results
-| Header One | Header Two | Header Three | Header Four |
-| ---------- | :--------- | :----------: | ----------: |
-| Default    | Left       | Center       | Right       |
+| Header One | Header Two | Header Three | Header Four |&nbsp;
+| ---------- | :--------- | :----------: | ----------: |&nbsp;
+| Default    | Left       | Center       | Right       |&nbsp;
 
 &nbsp;
 ### 2.3) Column Spanning
 
 ```
-| Column 1 | Column 2 | Column 3 | Column 4 |
-| -------- | :------: | -------- | -------- |
-| No span  | Span across three columns    |||
+| Column 1 | Column 2 | Column 3 | Column 4 |&nbsp;
+| -------- | :------: | -------- | -------- |&nbsp;
+| No span  | Span across three columns    |||&nbsp;
 ```
 
 Retults
-| Column 1 | Column 2 | Column 3 | Column 4 |
-| -------- | :------: | -------- | -------- |
-| No span  | Span across three columns    |||
+| Column 1 | Column 2 | Column 3 | Column 4 |&nbsp;
+| -------- | :------: | -------- | -------- |&nbsp;
+| No span  | Span across three columns    |||&nbsp;
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;
@@ -82,9 +82,9 @@ Emphasize ***this*** // Bold and Italic
 
 ```
 Results
-Emphasize *this*
-Emphasize **this**
-Emphasize ***this*** 
+Emphasize *this* &nbsp;
+Emphasize **this**&nbsp;
+Emphasize ***this*** &nbsp;
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;
@@ -97,7 +97,7 @@ Google[1] is a search engine. // Reference
 http://www.google.com // url
 ```
 Results
-[Google](http://www.google.com)
-Google[1] is a search engine.
+[Google](http://www.google.com)&nbsp;
+Google[1] is a search engine.&nbsp;
 [1]: http://www.google.com
-http://www.google.com
+http://www.google.com&nbsp;
