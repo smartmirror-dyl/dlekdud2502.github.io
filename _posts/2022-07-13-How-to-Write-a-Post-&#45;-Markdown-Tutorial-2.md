@@ -34,7 +34,8 @@ If you want to insert caption, use `*caption*`.
 [Table caption, works as a reference][section-mmd-tables-table1]
 ```
 Results
-    &nbsp;
+
+
 | First Header  | Second Header | Third Header         |
 
 &nbsp;
@@ -55,7 +56,8 @@ Insert `:` symbol one or both side of headers.
 ```
 
 Results
-  &nbsp;
+
+
 | Header One | Header Two | Header Three | Header Four |
 
 &nbsp;
@@ -73,7 +75,8 @@ Results
 ```
 
 Retults
-    &nbsp;
+
+
 | Column 1 | Column 2 | Column 3 | Column 4 |
 
 &nbsp;
@@ -92,9 +95,14 @@ Emphasize ***this*** // Bold and Italic
 
 ```
 Results
-&nbsp;Emphasize *this* 
-&nbsp;Emphasize **this**
-&nbsp;Emphasize ***this*** 
+
+Emphasize *this* 
+
+
+Emphasize **this**
+
+
+Emphasize ***this*** 
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;
@@ -107,9 +115,13 @@ Google[1] is a search engine. // Reference
 http://www.google.com // url
 ```
 Results
-&nbsp;[Google](http://www.google.com)
 
-&nbsp;Google[1] is a search engine.
 
+[Google](http://www.google.com)
+
+
+Google[1] is a search engine.
 [1]: http://www.google.com
-&nbsp;http://www.google.com
+
+
+http://www.google.com
