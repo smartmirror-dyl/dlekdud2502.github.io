@@ -76,16 +76,17 @@ Retults
 ## 3) Emphasis
 
 ```
-Emphasize \*this\* // Italic
-Emphasize \*\*this\*\* // Bold
-Emphasize \*\*\*this\*\*\* // Bold and Italic
+Emphasize *this* // Italic
+Emphasize **this** // Bold
+Emphasize ***this*** // Bold and Italic
+
 ```
 Results
-Emphasize \*this\* 
+Emphasize *this*
 &nbsp;
-Emphasize \*\*this\*\*
+Emphasize **this**
 &nbsp;
-Emphasize \*\*\*this\*\*\* 
+Emphasize ***this*** 
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;
