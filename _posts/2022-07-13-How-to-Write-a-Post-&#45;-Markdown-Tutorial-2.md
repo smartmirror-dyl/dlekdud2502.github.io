@@ -82,7 +82,9 @@ Emphasize \*\*\*this\*\*\* // Bold and Italic
 ```
 Results
 Emphasize \*this\* 
+&nbsp;
 Emphasize \*\*this\*\*
+&nbsp;
 Emphasize \*\*\*this\*\*\* 
 
 
@@ -96,7 +98,9 @@ Google[1] is a search engine. // Reference
 <http://www/google.co.kr> // url
 ```
 Results
-[Google]("http://www/google.com") 
+[Google]("http://www/google.com")
+&nbsp;
 Google[1] is a search engine. 
 [1]: http://google.com 
+&nbsp;
 <http://www/google.co.kr> 
