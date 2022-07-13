@@ -26,7 +26,7 @@ If you want to insert caption, use `*caption*`.
 
 ```
 
-| First Header  | Second Header | Third Header         |
+| First Header  | Second Header | Third Header         |  
 | :------------ | :-----------: | -------------------: |
 | First row     | Data          | Very long data entry |
 | Second row    | **Cell**      | *Cell*               |
@@ -34,7 +34,7 @@ If you want to insert caption, use `*caption*`.
 [Table caption, works as a reference][section-mmd-tables-table1]
 ```
 Results  
-| First Header  | Second Header | Third Header         |
+| First Header  | Second Header | Third Header         |  
 | :------------ | :-----------: | -------------------: |
 | First row     | Data          | Very long data entry |
 | Second row    | **Cell**      | *Cell*               |
@@ -46,13 +46,13 @@ Results
 Insert `:` symbol one or both side of headers. 
 
 ```
-| Header One | Header Two | Header Three | Header Four |
+| Header One | Header Two | Header Three | Header Four |  
 | ---------- | :--------- | :----------: | ----------: |
 | Default    | Left       | Center       | Right       |  
 ```
 
 Results  
-| Header One | Header Two | Header Three | Header Four |
+| Header One | Header Two | Header Three | Header Four |  
 | ---------- | :--------- | :----------: | ----------: |
 | Default    | Left       | Center       | Right       |    
   
@@ -66,7 +66,7 @@ Results
 ```
 
 Retults  
-| Column 1 | Column 2 | Column 3 | Column 4 |
+| Column 1 | Column 2 | Column 3 | Column 4 |  
 | -------- | :------: | -------- | -------- |
 | No span  | Span across three columns    |||  
   
