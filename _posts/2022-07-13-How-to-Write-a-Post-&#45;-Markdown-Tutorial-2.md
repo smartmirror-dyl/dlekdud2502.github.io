@@ -91,13 +91,13 @@ Emphasize ***this***
 ## 4) Link
 
 ```
-[Google]("http://www.google.com") // Inline
+[Google](http://www.google.com) // Inline
 Google[1] is a search engine. // Reference
 [1]: http://www.google.com 
-http://www.googl.com // url
+http://www.google.com // url
 ```
 Results
-[Google]("http://www.google.com")
-Google[1] is a search engine. 
-[1]: http://www.google.com 
+[Google](http://www.google.com)
+Google[1] is a search engine.
+[1]: http://www.google.com
 http://www.google.com
