@@ -83,9 +83,9 @@ Emphasize ***this*** // Bold and Italic
 ```
 Results
 Emphasize *this*
-&nbsp;
+ &nbsp;
 Emphasize **this**
-&nbsp;
+ &nbsp;
 Emphasize ***this*** 
 
 
@@ -99,9 +99,9 @@ Google[1] is a search engine. // Reference
 <http://googl.com> // url
 ```
 Results
-[Google]("http://www/google.com")
-&nbsp;
+[Google]("http://google.com")
+ &nbsp;
 Google[1] is a search engine. 
 [1]: http://google.com 
-&nbsp;
+ &nbsp;
 <http://google.com> 
