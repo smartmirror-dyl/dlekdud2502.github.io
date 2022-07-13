@@ -83,9 +83,7 @@ Emphasize ***this*** // Bold and Italic
 ```
 Results
 Emphasize *this*
- &nbsp;
 Emphasize **this**
- &nbsp;
 Emphasize ***this*** 
 
 
@@ -93,15 +91,13 @@ Emphasize ***this***
 ## 4) Link
 
 ```
-[Google]("http://www/google.com") // Inline
+[Google]("http://google.com") // Inline
 Google[1] is a search engine. // Reference
 [1]: http://google.com 
 <http://googl.com> // url
 ```
 Results
 [Google]("http://google.com")
- &nbsp;
 Google[1] is a search engine. 
 [1]: http://google.com 
- &nbsp;
 <http://google.com> 
