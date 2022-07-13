@@ -96,7 +96,7 @@ Emphasize ***this***
 [Google]("http://www/google.com") // Inline
 Google[1] is a search engine. // Reference
 [1]: http://google.com 
-<http://www/google.co.kr> // url
+<http://googl.com> // url
 ```
 Results
 [Google]("http://www/google.com")
@@ -104,4 +104,4 @@ Results
 Google[1] is a search engine. 
 [1]: http://google.com 
 &nbsp;
-<http://www/google.co.kr> 
+<http://google.com> 
