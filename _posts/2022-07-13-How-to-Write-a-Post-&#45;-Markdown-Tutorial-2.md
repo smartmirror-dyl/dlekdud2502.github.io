@@ -30,7 +30,7 @@ If you want to insert caption, use `*caption*`.
 | :------------ | :-----------: | -------------------: |
 | First row     | Data          | Very long data entry |
 | Second row    | **Cell**      | *Cell*               |
-| Third row     | Cell that spans across two columns  ||
+| Third row     | Cell that spans across two columns  ||  
 [Table caption, works as a reference][section-mmd-tables-table1]
 ```
 Results  
@@ -38,7 +38,7 @@ Results
 | :------------ | :-----------: | -------------------: |
 | First row     | Data          | Very long data entry |
 | Second row    | **Cell**      | *Cell*               |
-| Third row     | Cell that spans across two columns  ||
+| Third row     | Cell that spans across two columns  ||  
 [Table caption, works as a reference][table1]
   
 &nbsp;
@@ -48,13 +48,13 @@ Insert `:` symbol one or both side of headers.
 ```
 | Header One | Header Two | Header Three | Header Four |
 | ---------- | :--------- | :----------: | ----------: |
-| Default    | Left       | Center       | Right       |
+| Default    | Left       | Center       | Right       |  
 ```
 
 Results  
 | Header One | Header Two | Header Three | Header Four |
 | ---------- | :--------- | :----------: | ----------: |
-| Default    | Left       | Center       | Right       |  
+| Default    | Left       | Center       | Right       |    
   
 &nbsp;
 ### 2.3) Column Spanning
@@ -62,13 +62,13 @@ Results
 ```
 | Column 1 | Column 2 | Column 3 | Column 4 |
 | -------- | :------: | -------- | -------- |
-| No span  | Span across three columns    |||
+| No span  | Span across three columns    |||  
 ```
 
 Retults  
 | Column 1 | Column 2 | Column 3 | Column 4 |
 | -------- | :------: | -------- | -------- |
-| No span  | Span across three columns    |||
+| No span  | Span across three columns    |||  
   
 
 &nbsp;&nbsp;&nbsp;&nbsp;
@@ -79,7 +79,7 @@ Emphasize \*this\* // Italic
 Emphasize \*\*this\*\* // Bold
 Emphasize \*\*\*this\*\*\* // Bold and Italic
 ```
-Results
+Results  
 Emphasize \*this\*   
 Emphasize \*\*this\*\*  
 Emphasize \*\*\*this\*\*\*   
@@ -94,7 +94,7 @@ Google[1] is a search engine. // Reference
 [1]: http://google.com 
 <http://www/google.co.kr> // url
 ```
-Results
+Results  
 [Google](http://www.google.com)  
 Google[1] is a search engine.   
 [1]: http://google.com
