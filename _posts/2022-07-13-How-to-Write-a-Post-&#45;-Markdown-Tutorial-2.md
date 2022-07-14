@@ -34,14 +34,14 @@ If you want to insert caption, use `*caption*`.
 ```
 Results
 
-| First Header  | Second Header | Third Header         |  
-| :------------ | :-----------: | -------------------: |  
-| First row     | Data          | Very long data entry |  
-| Second row    | **Cell**      | *Cell*               |  
-| Third row     | Cell that spans across two columns  ||  
+| First Header  | Second Header | Third Header         |
+| :------------ | :-----------: | -------------------: |
+| First row     | Data          | Very long data entry |
+| Second row    | **Cell**      | *Cell*               |
+| Third row     | Cell that spans across two columns  ||
 [Table caption, works as a reference][table1]
 
-&nbsp;
+&nbsp;  
 
   
 &nbsp;
@@ -105,7 +105,7 @@ Google[1] is a search engine. // Reference
 ```
 Results  
 [Google](http://www.google.com)  
-Google[1] is a search engine.   
+[Google][1] is a search engine.   
 [1]: http://google.com  
 <http://www.google.com>   
 
