@@ -25,12 +25,13 @@ If you want to insert caption, use `*caption*`.
 ### 2.1) Structure of Table
 
 ```
+// Space is need before table
 | First Header  | Second Header | Third Header         |  
 | :------------ | :-----------: | -------------------: |
 | First row     | Data          | Very long data entry |
 | Second row    | **Cell**      | *Cell*               |
 | Third row     | Cell that spans across two columns  ||  
-[Table caption, works as a reference][section-mmd-tables-table1]
+// Space is need after table
 ```
 Results
 
