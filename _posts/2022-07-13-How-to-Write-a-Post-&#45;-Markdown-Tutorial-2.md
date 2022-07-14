@@ -25,7 +25,6 @@ If you want to insert caption, use `*caption*`.
 ### 2.1) Structure of Table
 
 ```
-
 | First Header  | Second Header | Third Header         |  
 | :------------ | :-----------: | -------------------: |
 | First row     | Data          | Very long data entry |
@@ -34,10 +33,10 @@ If you want to insert caption, use `*caption*`.
 [Table caption, works as a reference][section-mmd-tables-table1]
 ```
 Results  
-| First Header  | Second Header | Third Header         |  
-| :------------ | :-----------: | -------------------: |
-| First row     | Data          | Very long data entry |
-| Second row    | **Cell**      | *Cell*               |
+| First Header  | Second Header | Third Header         |    
+| :------------ | :-----------: | -------------------: |  
+| First row     | Data          | Very long data entry |  
+| Second row    | **Cell**      | *Cell*               |  
 | Third row     | Cell that spans across two columns  ||  
 [Table caption, works as a reference][table1]
   
@@ -46,15 +45,15 @@ Results
 Insert `:` symbol one or both side of headers. 
 
 ```
-| Header One | Header Two | Header Three | Header Four |  
-| ---------- | :--------- | :----------: | ----------: |
-| Default    | Left       | Center       | Right       |  
+| Header One | Header Two | Header Three | Header Four |    
+| ---------- | :--------- | :----------: | ----------: |  
+| Default    | Left       | Center       | Right       |    
 ```
 
 Results  
-| Header One | Header Two | Header Three | Header Four |  
-| ---------- | :--------- | :----------: | ----------: |
-| Default    | Left       | Center       | Right       |    
+| Header One | Header Two | Header Three | Header Four |    
+| ---------- | :--------- | :----------: | ----------: |  
+| Default    | Left       | Center       | Right       |      
   
 &nbsp;
 ### 2.3) Column Spanning
@@ -66,8 +65,8 @@ Results
 ```
 
 Retults  
-| Column 1 | Column 2 | Column 3 | Column 4 |  
-| -------- | :------: | -------- | -------- |
+| Column 1 | Column 2 | Column 3 | Column 4 |    
+| -------- | :------: | -------- | -------- |  
 | No span  | Span across three columns    |||  
   
 
