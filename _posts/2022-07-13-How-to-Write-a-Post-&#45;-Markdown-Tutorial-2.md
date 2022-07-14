@@ -56,7 +56,6 @@ Insert `:` symbol one or both side of headers.
 
 Results
 
-&nbsp; 
 | Header One | Header Two | Header Three | Header Four |
 | ---------- | :--------- | :----------: | ----------: |
 | Default    | Left       | Center       | Right       |
@@ -72,7 +71,7 @@ Results
 | No span  | Span across three columns    |||
 ```
 
-Retults
+Results
 
 | Column 1 | Column 2 | Column 3 | Column 4 |
 | -------- | :------: | -------- | -------- |
@@ -85,14 +84,14 @@ Retults
 ## 3) Emphasis
 
 ```
-Emphasize \*this\* // Italic
-Emphasize \*\*this\*\* // Bold
-Emphasize \*\*\*this\*\*\* // Bold and Italic
+Emphasize *this* // Italic
+Emphasize **this** // Bold
+Emphasize ***this*** // Bold and Italic
 ```
 Results  
-Emphasize \*this\*   
-Emphasize \*\*this\*\*  
-Emphasize \*\*\*this\*\*\*   
+Emphasize *this*   
+Emphasize **this**  
+Emphasize ***this***   
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;
@@ -107,7 +106,7 @@ Google[1] is a search engine. // Reference
 Results  
 [Google](http://www.google.com)  
 Google[1] is a search engine.   
-[1]: http://google.com
+[1]: http://google.com  
 <http://www.google.com>   
 
 
