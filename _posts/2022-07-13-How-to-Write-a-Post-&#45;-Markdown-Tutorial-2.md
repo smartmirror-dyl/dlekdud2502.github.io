@@ -40,7 +40,7 @@ Results
 | Second row    | **Cell**      | *Cell*               |
 | Third row     | Cell that spans across two columns  ||
 
-[Table caption, works as a reference][table1]
+[Table caption, works as a reference][section-mmd-tables-table1]
 
   
 
@@ -100,14 +100,14 @@ Emphasize ***this***
 
 ```
 [Google](http://www.google.com) // Inline
-Google[1] is a search engine. // Reference
-[1]: http://google.com 
+[Google][1] is a search engine. // Reference
+[1]: http://www.google.com 
 <http://www/google.co.kr> // url
 ```
 Results  
 [Google](http://www.google.com)  
 [Google][1] is a search engine.   
-[1]: http://google.com  
+[1]: http://www.google.com  
 <http://www.google.com>   
 
 
