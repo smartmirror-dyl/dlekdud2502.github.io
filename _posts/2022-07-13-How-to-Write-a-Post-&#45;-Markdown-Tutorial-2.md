@@ -25,13 +25,13 @@ If you want to insert caption, use `*caption*`.
 ### 2.1) Structure of Table
 
 ```
-// Space is need before table
+// Space is neccesary before table
 | First Header  | Second Header | Third Header         |  
 | :------------ | :-----------: | -------------------: |
 | First row     | Data          | Very long data entry |
 | Second row    | **Cell**      | *Cell*               |
 | Third row     | Cell that spans across two columns  ||  
-// Space is need after table
+// Space is neccesary after table
 ```
 Results
 
