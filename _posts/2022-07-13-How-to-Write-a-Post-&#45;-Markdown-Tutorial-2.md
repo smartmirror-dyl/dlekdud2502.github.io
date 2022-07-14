@@ -35,9 +35,9 @@ If you want to insert caption, use `*caption*`.
 Results
 
 | First Header  | Second Header | Third Header         |
-| :------------ | :-----------: | -------------------: |  
-| First row     | Data          | Very long data entry |  
-| Second row    | **Cell**      | *Cell*               |  
+| :------------ | :-----------: | -------------------: |
+| First row     | Data          | Very long data entry |
+| Second row    | **Cell**      | *Cell*               |
 | Third row     | Cell that spans across two columns  ||
 [Table caption, works as a reference][table1]
 
