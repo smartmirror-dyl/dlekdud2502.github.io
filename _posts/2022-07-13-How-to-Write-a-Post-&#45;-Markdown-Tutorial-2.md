@@ -40,11 +40,8 @@ Results
 | Second row    | **Cell**      | *Cell*               |
 | Third row     | Cell that spans across two columns  ||
 
-[Table caption, works as a reference][section-mmd-tables-table1]
+&nbsp; 
 
-  
-
-  
 &nbsp;
 ### 2.2) Alignment
 Insert `:` symbol one or both side of headers. 
@@ -100,13 +97,13 @@ Emphasize ***this***
 
 ```
 [Google](http://www.google.com) // Inline
-[Google][1] is a search engine. // Reference
+Google[1] is a search engine. // Reference
 [1]: http://www.google.com 
 <http://www/google.co.kr> // url
 ```
 Results  
 [Google](http://www.google.com)  
-[Google][1] is a search engine.   
+Google[1] is a search engine.   
 [1]: http://www.google.com  
 <http://www.google.com>   
 
