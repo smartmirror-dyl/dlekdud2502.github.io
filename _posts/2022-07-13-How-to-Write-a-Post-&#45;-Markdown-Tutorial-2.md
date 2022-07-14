@@ -40,7 +40,6 @@ Results
 | Second row    | **Cell**      | *Cell*               |
 | Third row     | Cell that spans across two columns  ||
 
-&nbsp;  
 [Table caption, works as a reference][table1]
 
   
