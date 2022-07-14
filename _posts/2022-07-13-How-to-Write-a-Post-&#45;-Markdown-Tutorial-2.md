@@ -18,7 +18,7 @@ tags: [github, jekyll, chirpy, markdown]
 If you want to insert caption, use `*caption*`.
  
  
- &nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;
 ## 2) Table
 
 &nbsp;
@@ -32,13 +32,13 @@ If you want to insert caption, use `*caption*`.
 | Third row     | Cell that spans across two columns  ||  
 [Table caption, works as a reference][section-mmd-tables-table1]
 ```
-Results  
+Results  &nbsp;
 | First Header  | Second Header | Third Header         |    
 | :------------ | :-----------: | -------------------: |  
 | First row     | Data          | Very long data entry |  
 | Second row    | **Cell**      | *Cell*               |  
 | Third row     | Cell that spans across two columns  ||  
-[Table caption, works as a reference][table1]
+[Table caption, works as a reference][table1]  &nbsp;
   
 &nbsp;
 ### 2.2) Alignment
@@ -47,13 +47,13 @@ Insert `:` symbol one or both side of headers.
 ```
 | Header One | Header Two | Header Three | Header Four |    
 | ---------- | :--------- | :----------: | ----------: |  
-| Default    | Left       | Center       | Right       |    
+| Default    | Left       | Center       | Right       |      
 ```
 
-Results  
+Results  &nbsp; 
 | Header One | Header Two | Header Three | Header Four |    
 | ---------- | :--------- | :----------: | ----------: |  
-| Default    | Left       | Center       | Right       |      
+| Default    | Left       | Center       | Right       |  &nbsp;     
   
 &nbsp;
 ### 2.3) Column Spanning
@@ -64,10 +64,10 @@ Results
 | No span  | Span across three columns    |||  
 ```
 
-Retults  
+Retults  &nbsp;  
 | Column 1 | Column 2 | Column 3 | Column 4 |    
 | -------- | :------: | -------- | -------- |  
-| No span  | Span across three columns    |||  
+| No span  | Span across three columns    |||  &nbsp; 
   
 
 &nbsp;&nbsp;&nbsp;&nbsp;
