@@ -116,7 +116,7 @@ kmeans.result # Figure 07
 plot(iris2[c("Sepal.Length","Sepal.Width")], col=kmeans.result$cluster) # Figure 08
 ```
 ![alt Figure 07](/assets/pots/220726_fig07.jpg)
-*Figure 07. kmeans.result *
+*Figure 07. kmeans.result*
 
 ![alt Figure 08](/assets/pots/220726_fig08.jpg)
 *Figure 08. kmeans.result plot*
