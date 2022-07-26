@@ -1,0 +1,5 @@
+User-agent: *
+
+Disallow: /norobots/
+
+Sitemap: https://dlekdud2502.github.io/dlekdud2502/sitemap.xml
