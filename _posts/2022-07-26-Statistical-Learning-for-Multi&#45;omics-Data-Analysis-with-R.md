@@ -159,7 +159,7 @@ plot(hc, hang = -1, labels=iris$Species[idx]) # Figure 11
 *Figure 11. hc plot*
 
 ## DAY 2 (22.Jul.2022)
-The contents about Day 2 is included in the PDF file below. 
+The contents of Day 2 are included in the file below. 
 
 <div type="down_btn">
 	<a href="/assets/posts/220726.pdf">
