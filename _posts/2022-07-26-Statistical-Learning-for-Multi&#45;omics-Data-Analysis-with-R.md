@@ -105,7 +105,8 @@ plot(tsne_out$Y, col=iris_unique$Species)
 3. Each datapoint finds out which center it's closest to.
 4. Each center finds the centroid of the points it owns and jumps there.
 5. Repeat until terminated.
-![alt Figure 06](/assets/pots/220726_fig06.jpg)
+
+![alt Figure 06](/assets/posts/220726_fig06.jpg)
 *Figure 06. k-means Clustering Algorithm*
 
 ```R
