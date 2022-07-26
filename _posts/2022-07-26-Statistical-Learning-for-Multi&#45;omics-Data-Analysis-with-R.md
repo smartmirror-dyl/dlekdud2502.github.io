@@ -130,7 +130,6 @@ plot(iris2[c("Sepal.Length","Sepal.Width")], col=kmeans.result$cluster) # Figure
 3.&nbsp;Repeat until terminated. 
 
 + How to measure distance between groups? 
-
 1.&nbsp;Single Linkage  
    Dissimilarity between two clusters = Minimum dissimilarity between the members of two clusters.  
 2.&nbsp;Complete Linkage  
