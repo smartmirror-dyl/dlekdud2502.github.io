@@ -4,7 +4,7 @@ title : Statistical Learning for Multi&#45;omics Data Analysis with R
 
 date : 2022-07-26 14:00:00 + 0900
 
-categories: [R/Python, Workshop/Conference]
+categories: [R/Python,R],[Workshop/Conference,16th Asian Institute in Statistical Genetics and Genomics Workshop]
 
 tags: [r, statistical learning, machine learning, workshop, multiomics]
 
