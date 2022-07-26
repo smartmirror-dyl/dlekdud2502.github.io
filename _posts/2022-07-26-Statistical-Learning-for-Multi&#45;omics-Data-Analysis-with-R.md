@@ -129,14 +129,15 @@ plot(iris2[c("Sepal.Length","Sepal.Width")], col=kmeans.result$cluster) # Figure
 2.&nbsp;Make the nearest two samples into a group and regard them as one sample.
 3.&nbsp;Repeat until terminated. 
 
-+ How to measure distance between groups?&nbsp;&nbsp;
-1.&nbsp;Single Linkage  
++ How to measure distance between groups?
+ 
+1. Single Linkage  
    Dissimilarity between two clusters = Minimum dissimilarity between the members of two clusters.  
-2.&nbsp;Complete Linkage  
+2. Complete Linkage  
    Dissimilarity between two clusters = Minimum dissimilarity between the members of two clusters.  
-3.&nbsp;Average Linkage  
+3. Average Linkage  
    Dissimilarity between two clusters = Averaged distances of all pairs of objects (one from each cluster).  
-4.&nbsp;Average Group Linkage  
+4. Average Group Linkage  
    Dissimilarity between two clusters = Distance between two cluster means.
 
 ![alt Figure 09](/assets/posts/220726_fig09.jpg)
