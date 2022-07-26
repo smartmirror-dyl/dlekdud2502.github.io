@@ -125,8 +125,8 @@ plot(iris2[c("Sepal.Length","Sepal.Width")], col=kmeans.result$cluster) # Figure
 *Figure 08. kmeans.result plot*
 
 #### 2-2. Hierarchical Clustering
-1.&nbsp;Select two samples and measure distance between them.
-2.&nbsp;Make the nearest two samples into a group and regard them as one sample.
+1.&nbsp;Select two samples and measure distance between them.  
+2.&nbsp;Make the nearest two samples into a group and regard them as one sample.  
 3.&nbsp;Repeat until terminated. 
 
 + How to measure distance between groups?
