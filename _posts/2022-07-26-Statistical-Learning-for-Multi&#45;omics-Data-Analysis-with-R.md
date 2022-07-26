@@ -4,7 +4,7 @@ title : Statistical Learning for Multi&#45;omics Data Analysis with R
 
 date : 2022-07-26 14:00:00 + 0900
 
-categories: [R/Python,R]
+categories: [Workshop/Conference,16th Asian Institute in Statistical Genetics and Genomics Workshop]
 
 tags: [r, statistical learning, machine learning, workshop, multiomics]
 
@@ -18,8 +18,8 @@ This post is written after taking lecture "Multi-omics Data Analysis" of 16th As
 
 Convert high-dimensional data to low-dimentional data. 
 
-1.Removal of uninformative features based on experience.  
-2.Removal of uninformative features based on computational method. ex) PCA
+1.&nbsp;Removal of uninformative features based on experience.  
+2.&nbsp;Removal of uninformative features based on computational method. ex) PCA
 
 #### 1-1. Principal Component Analysis (PCA)
 Define y_k that is orthogonal with y_(k-1).  Select n of y_k that have largest variance.  
@@ -100,11 +100,11 @@ plot(tsne_out$Y, col=iris_unique$Species)
 - Unsupervised learning
 
 #### 2-1. k-means clustering
-1.Ask user how many clusters they'd like. (e.g. k=5)  
-2.Randomly guess k cluster center locations  
-3.Each datapoint finds out which center it's closest to.  
-4.Each center finds the centroid of the points it owns and jumps there.  
-5.Repeat until terminated.
+1.&nbsp;Ask user how many clusters they'd like. (e.g. k=5)  
+2.&nbsp;Randomly guess k cluster center locations  
+3.&nbsp;Each datapoint finds out which center it's closest to.  
+4.&nbsp;Each center finds the centroid of the points it owns and jumps there.  
+5.&nbsp;Repeat until terminated.
 
 ![alt Figure 06](/assets/posts/220726_fig06.jpg)
 *Figure 06. k-means Clustering Algorithm*
@@ -125,21 +125,22 @@ plot(iris2[c("Sepal.Length","Sepal.Width")], col=kmeans.result$cluster) # Figure
 *Figure 08. kmeans.result plot*
 
 #### 2-2. Hierarchical Clustering
-1.Select two samples and measure distance between them.
-2.Make the nearest two samples into a group and regard them as one sample.
-3.Repeat until terminated. 
+1.&nbsp;Select two samples and measure distance between them.
+2.&nbsp;Make the nearest two samples into a group and regard them as one sample.
+3.&nbsp;Repeat until terminated. 
 
 + How to measure distance between groups? 
-1.Single Linkage  
-  : Dissimilarity between two clusters = Minimum dissimilarity between the members of two clusters.  
-2.Complete Linkage  
-  : Dissimilarity between two clusters = Minimum dissimilarity between the members of two clusters.  
-3.Average Linkage  
-  : Dissimilarity between two clusters = Averaged distances of all pairs of objects (one from each cluster).  
-4.Average Group Linkage  
-  : Dissimilarity between two clusters = Distance between two cluster means.
 
-![alt Figure 09](/assets/pots/220726_fig09.jpg)
+1.&nbsp;Single Linkage  
+   Dissimilarity between two clusters = Minimum dissimilarity between the members of two clusters.  
+2.&nbsp;Complete Linkage  
+   Dissimilarity between two clusters = Minimum dissimilarity between the members of two clusters.  
+3.&nbsp;Average Linkage  
+   Dissimilarity between two clusters = Averaged distances of all pairs of objects (one from each cluster).  
+4.&nbsp;Average Group Linkage  
+   Dissimilarity between two clusters = Distance between two cluster means.
+
+![alt Figure 09](/assets/posts/220726_fig09.jpg)
 *Figure 09. Four method to measure distance between groups (a) Single Lingkage (b) Complete Linkage (c) Average Linkage (d) Average Group Linkage*
  
 ```R
@@ -159,7 +160,7 @@ plot(hc, hang = -1, labels=iris$Species[idx]) # Figure 11
 *Figure 11. hc plot*
 
 ## DAY 2 (22.Jul.2022)
-The contents about Day is included in the PDF file below. 
+The contents about Day 2 is included in the PDF file below. 
 
 <div type="down_btn">
 	<a href="/assets/posts/220726.pdf">
