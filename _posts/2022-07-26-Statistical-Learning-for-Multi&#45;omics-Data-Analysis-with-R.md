@@ -141,9 +141,7 @@ plot(iris2[c("Sepal.Length","Sepal.Width")], col=kmeans.result$cluster) # Figure
    Dissimilarity between two clusters = Distance between two cluster means.
 
 ![alt Figure 09](/assets/posts/220726_fig09.jpg)
-*Figure 09. Four method to measure distance between groups  
-
-(a) Single Lingkage (b) Complete Linkage (c) Average Linkage (d) Average Group Linkage*
+*Figure 09. Four method to measure distance between groups <br>(a) Single Lingkage (b) Complete Linkage (c) Average Linkage (d) Average Group Linkage*
  
 ```R
 # Example R code of Hierachical Clustering
