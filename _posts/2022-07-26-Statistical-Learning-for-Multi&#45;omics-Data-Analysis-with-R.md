@@ -51,7 +51,8 @@ a <- fastICA(X, 2, alg.type="parallel", fun= "logcosh", alpha = 1,
 *Figure 02. Difference between PCA and ICA*
 
 #### 1-3. Non-negative Matrix Factorization (NMF)
-The matrix V is represented by the two smaller matrices W and H, which, when multiplied, approximately reconstruct V.
+The matrix V is represented by the two smaller matrices W and H, which, when multiplied, reconstruct V.
+
 ![alt Figure 03](/assets/posts/220726_fig03.jpg)
 *Figure 03. NMF*
 
@@ -71,7 +72,8 @@ dim(w) # 30 2
 
 #### 1-4. t-distributed Stochastic Neighbor Embedding (t-SNE)
 Nonlinear dimensionality reduction technique.
-The distribution of data is checked by measuring distance based on t-distribution.
+The distribution of data is checked by distance based on t-distribution.
+
 ![alt Figure 04](/assets/posts/220726_fig04.jpg)
 *Figure 04. t-SNE*
 
@@ -115,10 +117,10 @@ kmeans.result # Figure 07
 
 plot(iris2[c("Sepal.Length","Sepal.Width")], col=kmeans.result$cluster) # Figure 08
 ```
-![alt Figure 07](/assets/pots/220726_fig07.jpg)
+![alt Figure 07](/assets/posts/220726_fig07.jpg)
 *Figure 07. kmeans.result*
 
-![alt Figure 08](/assets/pots/220726_fig08.jpg)
+![alt Figure 08](/assets/posts/220726_fig08.jpg)
 *Figure 08. kmeans.result plot*
 
 #### 2-2. Hierarchical Clustering
@@ -146,9 +148,9 @@ hc # Figure 10
 
 plot(hc, hang = -1, labels=iris$Species[idx]) # Figure 11
 ```
-![alt Figure 10](/assets/pots/220726_fig10.jpg)
+![alt Figure 10](/assets/posts/220726_fig10.jpg)
 *Figure 10. hc*
-![alt Figure 11](/assets/pots/220726_fig11.jpg)
+![alt Figure 11](/assets/posts/220726_fig11.jpg)
 *Figure 11. hc plot*
 
 ## DAY 2 (22.Jul.2022)
